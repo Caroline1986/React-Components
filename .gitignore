@@ -28,3 +28,5 @@ target/
 .idea/
 Config.java
 Test.java
+
+/keys.js
