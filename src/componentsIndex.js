@@ -41,6 +41,6 @@ const App = () => {
     );
 };
 
-// ReactDOM.render(<App/>, document.querySelector('#root'));
+// ReactDOM.render(<ImageApp/>, document.querySelector('#root'));
 
 //https://semantic-ui.com/views/comment.html : google semantic ui cdn
