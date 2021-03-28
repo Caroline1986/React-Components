@@ -1,5 +1,17 @@
 import React from "react";
 
 const VideoDetail = ({video}) => {
-    return <div>{video.snippet.title}</div>
-}
+    if (!video) {
+        return <div>Loading...</div>
+    }
+    return (
+        <div>
+            <div className={"ui segment"}>
+                <h4 className={"ui header"}>
+                    {video.snippet.title}</h4>
+            </div>
+        </div>
+    );
+};
+
+export default VideoDetail;
